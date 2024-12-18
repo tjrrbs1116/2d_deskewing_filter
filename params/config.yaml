@@ -1,0 +1,11 @@
+lidarfilter_node:
+  ros__parameters:
+    lidar_topic: "/scan"
+    odom_topic: "/wheel/odometry"
+    max_velocity : 5.0 # m/s
+    poses_size : 100 # size of poses buffer
+    odom_hz : 20.0 # hz of odom
+    lidar_hz : 10.0 # hz of lidar
+    synk_tolerance : 0.005  
+    scan_duration : 30 #hz
+    scan_point : 300
